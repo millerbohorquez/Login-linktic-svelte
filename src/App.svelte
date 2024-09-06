@@ -133,7 +133,7 @@
       </div>
       <label id="labelRemember" class="keepme" for="remember">
         <input id="remember" type="checkbox" bind:checked={rememberMe} />
-        <strong>Remember me</strong>
+        <strong>Remember account</strong>
       </label>
       <button type="submit" id="enviar">Login</button>
     </form>
