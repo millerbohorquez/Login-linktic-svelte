@@ -96,7 +96,7 @@
       <div id="contra">
         <label class="password" for="contrasinal">
           <i class="fa-solid fa-lock"></i>
-          <!-- Usamos dos inputs condicionales en lugar de un atributo dinámico -->
+          
           {#if showPassword}
             <input
               id="contrasinal"

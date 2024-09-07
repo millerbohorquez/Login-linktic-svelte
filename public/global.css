@@ -72,6 +72,15 @@
     overflow: hidden;
     font-family: "Nunito Sans", sans-serif;
   }
+
+  input[type="email"]:hover{
+    border: 2px solid #5C8BFF;
+    cursor: pointer;
+  }
+  input[type="password"]:hover{
+    border: 2px solid #5C8BFF;
+    cursor: pointer;
+  }
   
   .contra {
     margin-bottom: 50px;
@@ -128,6 +137,7 @@
     font-weight: bold;
     height: 18px;
     width: 18px;
+    cursor: pointer;
   }
   
   button {
@@ -144,6 +154,16 @@
     border: none;
     background: #0049ff;
     border-radius: 25px;
+    
+  }
+
+  button:hover {
+    background: #5C8BFF;
+    width: 230px;
+    height: 43px;
+    transition: all .3s;
+    transition-duration: 0.3s;
+
   }
   
   .link {
